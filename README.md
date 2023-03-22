@@ -18,15 +18,27 @@ After training the model on the cora dataset for 200 epochs, we achieved the fol
 
 
 ```
-Epoch 200 | Train Loss: 0.038 | Train Acc:  62.50% | Val Loss: 0.04 | Val Acc: 99.20%
+Epoch 200 | Train Loss: 0.022 | Train Acc:  99.17% | Val Loss: 1.50 | Val Acc: 60.80%
 Test Accuracy: 79.00%
 ```
 
+Training Loss:
+![Training Loss](https://github.com/YousefGamal220/Graph-Attention-Network/blob/main/assets/training_loss.png?raw=true)
 
+Validation Loss:
+![Validation Loss](https://github.com/YousefGamal220/Graph-Attention-Network/blob/main/assets/validationLoss.png?raw=true)
+
+Training Accuracy:
+![Training Accuracy](https://github.com/YousefGamal220/Graph-Attention-Network/blob/main/assets/training_accuracy.png?raw=true)
+
+Validation Accuracy:
+![Validation Accuracy](https://github.com/YousefGamal220/Graph-Attention-Network/blob/main/assets/validation%20Accuracy.png?raw=true)
+
+Graph after training: 
+![Graph](https://github.com/YousefGamal220/Graph-Attention-Network/blob/main/assets/Graph%20Visualizatoin.png?raw=true)
 
 Credits
 The implementation is based on the following resources:
 
 PyTorch Geometric documentation
-Official PyTorch tutorials
-DGL implementation of GAT
+PyTorch Documentation
